@@ -1,0 +1,102 @@
+* {
+
+	padding: 0;
+	margin: 0;
+}
+
+body  {
+
+	background-image: url(gemma-evans-JUrolU3FLTA-unsplash.jpg);
+    background-size: 100%;
+    background-position-y: center;
+}
+
+
+header, section, footer {
+
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* INICIO FORMULARIO ----------------------------------------------------------------------------   */
+
+
+form {width:340px;
+	height:670px;
+	background:#e6e6e6;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000; 
+	padding:20px 30px;
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	position:relative; 	
+	margin-left: auto; 
+	margin-right: auto;
+	top:50px; 
+
+}
+
+form h2 {margin:10px 0;padding-bottom:10px;width:180px;color:#190fa0;border-bottom:3px solid #0d0f81;
+
+}
+form input {width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2
+
+}
+form input:focus {border-bottom:2px solid #78788c
+
+}
+
+form p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a
+}
+
+#btnSend {width: 30%; float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s
+
+}
+#btnSend:hover {background:#102079;color:#fff
+
+}
+form div{content:'Hi';position:absolute;bottom:-15px;right:-20px;background:#37a147;color:#fff;width:3; padding: 5px; border-radius:8px;
+}
+
+/* FIN FORMULARIO ----------------------------------------------------------------------------   */
+
+#gracias {
+
+	height:auto;
+	width:340px;
+	background:#e6e6e6;
+	border-radius:8px;
+	box-shadow:0 0 40px -10px #000; 
+	padding:20px 30px;
+	box-sizing:border-box;
+	font-family:'Montserrat',sans-serif;
+	position:relative; 	
+	margin-left: auto; 
+	margin-right: auto;
+	top:50px; 
+
+}
+
+
+#gracias h1 {
+
+	margin:10px 0;padding-bottom:10px;width:180px;color:#190fa0;border-bottom:3px solid #0d0f81
+}
+
+#gracias p {
+
+	width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2; font-size: 1.2em;
+}
+
+#gracias li, a {
+
+	list-style-type: none;
+	font-family:'Montserrat',sans-serif;
+	line-height: 40px;
+	margin-left: 9px;
+	font-size: 1.2em;
+
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>TP4</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+	<body>
+    <div id=andraste><h2>Casa de Andraste corazón de fuego – Beneficencia de prendas</h2></div>
+        <div id="contactotitulo">
+            <form class="form" action="/form01" method="POST">
+                  <h2>Llene el formulario de Donación</h2>
+                  <p type="Prenda:"><input name="nombre" placeholder="Escriba la prenda a donar" required></input></p>
+                  <p type="Categoria:"><label for="categoria">Seleccione una categoría</label>
+                    <select name="categoria" id="opciones_categoria">
+                      <option value=1>Superior</option>
+                      <option value=2>Inferior</option>
+                      <option value=3>Vestido</option>
+                      <option value=4>Calzado</option>
+                      <option value=5>Ropa_Interior</option>
+                      <option value=6>Accesorios</option>
+                    </select></p>
+                  <p type="Estado:"><label for="estado">Seleccione el estado de la prenda</label>
+                    <select name="estadodeprenda" id="estado_prenda">
+                      <option value=1>Nueva</option>
+                      <option value=2>Excelente_Estado</option>
+                      <option value=3>Buen_Estado</option>
+                      <option value=4>Con_detalles</option>
+                    </select></p>
+                  <p type="Rango Etario:"><label for="rango_etario">Seleccione el rango  etario</label>
+                    <select name="rango_etario" id="rangoetario">
+                      <option value=1>Niñe</option>
+                      <option value=2>Adolescente</option>
+                      <option value=3>Adulto</option>
+                      <option value=4>Anciano</option>
+                    </select></p>
+                  <p type="Nombre y Apellido:"><input name="donante" placeholder="Escriba su nombre y apellido" required></input></p>
+                  <p type="Fecha de la Donacion:"><input type="datetime" name="fecha" id="date" value="" readonly="readonly"></input></p>
+                  <input type="submit" name="submit" value="Donar" id="btnSend"></input>
+            </form>
+        </div>
+</form>
+<script type="text/javascript">
+
+   let today = new Date();
+
+   let date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+
+   let inputfecha = document.getElementById('date');
+
+   inputfecha.value = date; 
+
+</script>
+</body>
+</html>
