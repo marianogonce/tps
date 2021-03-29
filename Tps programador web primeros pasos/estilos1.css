@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #FE2E9A;
+    text-align: center;
+}
+h2 {
+    color: #CC2EFA;
+}
+span {
+    color: #31B404;
+    font-style: italic;
+}
+.avance {
+    color: #FF4000;
+}
+a {
+    color: #F7BE81;
+    text-decoration: none;
+}
+a:hover {
+    color:#FF4000;
+}
+a:active {
+    color:blue;
+    font-weight: bold;
+}

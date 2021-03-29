@@ -1,0 +1,57 @@
+body {
+    background-image:url(fondo.png);
+    font-family: Calibri;
+}
+h1 {
+    color: #FE2E9A;
+    text-align: center;
+}
+h2 {
+    color: #CC2EFA;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+ul.menu li a {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #F3F781;
+    color: #FF4000;
+    margin-bottom: 5px;
+    line-height: 50px;
+    font-weight: bold;
+    border: 1px solid #FF4000;
+}
+ul.menu li a:hover {
+    background-color:#FFBF00 ;
+}
+ul.menu li {
+    display: inline;
+}
+
+ul.producto li a {
+    margin-top: 10px;
+    text-align: center;
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: #F5A9E1;
+    color: #6A0888;
+    margin-bottom: 5px;
+    line-height: 40px;
+    font-weight: bold;
+    border: 1px dotted #BF00FF;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+ul.producto li a:hover {
+    background-color:#FE2E9A ;
+}
