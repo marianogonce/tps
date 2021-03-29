@@ -1,0 +1,105 @@
+body  {
+
+	background-image: url(photo3.jpg);
+	background-size: 2000px;
+	font-family: arial; 
+	line-height: 20px; 
+	padding: 40px; 
+	margin: 20px; 
+		letter-spacing: 1.5px;
+		font-family: gadugi; 
+
+
+}
+
+
+header, section, footer {
+
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+section {
+
+	background-color: white; 
+    padding: 40px; 
+     border-radius: 1em;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+ p {
+     
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 40px;
+     padding: 7px;
+
+
+     }
+
+.resumen {
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+ 	color: #ffffff;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 1em;
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+
+h2 {
+
+	background-color: #a8a8a2;
+	color: #ffffff;
+	padding: 8px;
+	display: inline;
+	margin: 9px;
+	border-radius: 1em;
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4); 
+
+}
+
+h2:hover {
+
+	background-color: #127dff;
+	cursor: pointer;
+}
+
+ul {
+
+    display: inline-block;
+    list-style: none;
+}
+
+
+.listaselectora:hover {
+
+   	cursor: pointer;
+   	color: #ff0000;
+
+}
+
+img {
+	float: right;
+}
+
+h4 {
+
+	color: black;
+    background: linear-gradient(328deg, rgba(255,255,255,1) 15%, rgba(0,181,255,1) 47%, rgba(255,255,255,1) 76%);
+}
+
+
+@media (hover: hover) {
+    h4:hover, h2:hover {
+        transform: scale(1.1);
+        transition: transform 0.1s;
+    }
+}
+
+
